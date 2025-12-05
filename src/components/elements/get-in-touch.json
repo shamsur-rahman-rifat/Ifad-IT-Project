@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_get_in_touches",
+  "info": {
+    "displayName": "Get In Touch"
+  },
+  "options": {},
+  "attributes": {
+    "adress": {
+      "type": "text"
+    },
+    "call": {
+      "type": "biginteger"
+    },
+    "email": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

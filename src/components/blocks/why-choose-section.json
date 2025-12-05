@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_blocks_why_choose_sections",
+  "info": {
+    "displayName": "Why Choose Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "whyChoose": {
+      "type": "component",
+      "component": "elements.card",
+      "repeatable": true
+    },
+    "cta": {
+      "type": "component",
+      "component": "elements.link",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

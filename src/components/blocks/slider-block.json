@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_blocks_slider_blocks",
+  "info": {
+    "displayName": "Slider Block"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "logos": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_stats_blocks",
+  "info": {
+    "displayName": "Stats Block"
+  },
+  "options": {},
+  "attributes": {
+    "experience": {
+      "type": "string"
+    },
+    "clients": {
+      "type": "string"
+    },
+    "team": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

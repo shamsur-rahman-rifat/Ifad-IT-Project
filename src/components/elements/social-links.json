@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_elements_social_links",
+  "info": {
+    "displayName": "Social Links"
+  },
+  "options": {},
+  "attributes": {
+    "facebook": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "linkdin": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "pinterest": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

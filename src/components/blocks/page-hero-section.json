@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_page_hero_sections",
+  "info": {
+    "displayName": "Page Hero Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

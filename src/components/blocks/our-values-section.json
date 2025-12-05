@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_our_values_sections",
+  "info": {
+    "displayName": "Our Values Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "text"
+    },
+    "values": {
+      "type": "component",
+      "component": "elements.card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

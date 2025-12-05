@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blocks_contact_blocks",
+  "info": {
+    "displayName": "Contact Block"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "ContactDetails": {
+      "type": "component",
+      "component": "elements.get-in-touch",
+      "repeatable": false
+    },
+    "SocialLinks": {
+      "type": "component",
+      "component": "elements.social-links",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

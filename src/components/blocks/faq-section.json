@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_faq_sections",
+  "info": {
+    "displayName": "Faq Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "faq": {
+      "type": "component",
+      "component": "elements.faq",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

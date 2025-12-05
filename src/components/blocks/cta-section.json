@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_cta_sections",
+  "info": {
+    "displayName": "Cta Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "text"
+    },
+    "cta": {
+      "type": "component",
+      "component": "elements.link",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}
