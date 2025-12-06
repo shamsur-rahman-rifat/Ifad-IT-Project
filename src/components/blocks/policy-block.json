@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_policy_blocks",
+  "info": {
+    "displayName": "Policy Block"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SubTitle": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

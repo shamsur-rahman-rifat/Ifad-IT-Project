@@ -130,6 +130,18 @@ export interface BlocksPageHeroSection extends Struct.ComponentSchema {
   };
 }
 
+export interface BlocksPolicyBlock extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_policy_blocks';
+  info: {
+    displayName: 'Policy Block';
+  };
+  attributes: {
+    content: Schema.Attribute.RichText;
+    SubTitle: Schema.Attribute.String;
+    Title: Schema.Attribute.String;
+  };
+}
+
 export interface BlocksServiceSection extends Struct.ComponentSchema {
   collectionName: 'components_blocks_service_sections';
   info: {
@@ -376,6 +388,7 @@ declare module '@strapi/strapi' {
       'blocks.our-story-block': BlocksOurStoryBlock;
       'blocks.our-values-section': BlocksOurValuesSection;
       'blocks.page-hero-section': BlocksPageHeroSection;
+      'blocks.policy-block': BlocksPolicyBlock;
       'blocks.service-section': BlocksServiceSection;
       'blocks.slider-block': BlocksSliderBlock;
       'blocks.stats-block': BlocksStatsBlock;

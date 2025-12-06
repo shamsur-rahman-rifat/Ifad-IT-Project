@@ -32,7 +32,8 @@
         "blocks.team-section",
         "blocks.cta-section",
         "blocks.form-block",
-        "blocks.contact-block"
+        "blocks.contact-block",
+        "blocks.policy-block"
       ]
     }
   }
