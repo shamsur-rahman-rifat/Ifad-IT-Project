@@ -33,7 +33,8 @@
         "blocks.cta-section",
         "blocks.form-block",
         "blocks.contact-block",
-        "blocks.policy-block"
+        "blocks.policy-block",
+        "blocks.card-section"
       ]
     }
   }

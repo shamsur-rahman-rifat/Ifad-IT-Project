@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_card_sections",
+  "info": {
+    "displayName": "Card Section"
+  },
+  "options": {},
+  "attributes": {
+    "cards": {
+      "type": "component",
+      "component": "elements.card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

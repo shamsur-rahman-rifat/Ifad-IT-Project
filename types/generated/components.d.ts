@@ -15,6 +15,16 @@ export interface BlocksAboutSection extends Struct.ComponentSchema {
   };
 }
 
+export interface BlocksCardSection extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_card_sections';
+  info: {
+    displayName: 'Card Section';
+  };
+  attributes: {
+    cards: Schema.Attribute.Component<'elements.card', true>;
+  };
+}
+
 export interface BlocksContactBlock extends Struct.ComponentSchema {
   collectionName: 'components_blocks_contact_blocks';
   info: {
@@ -379,6 +389,7 @@ declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
       'blocks.about-section': BlocksAboutSection;
+      'blocks.card-section': BlocksCardSection;
       'blocks.contact-block': BlocksContactBlock;
       'blocks.cta-section': BlocksCtaSection;
       'blocks.faq-section': BlocksFaqSection;
