@@ -34,7 +34,8 @@
         "blocks.form-block",
         "blocks.contact-block",
         "blocks.policy-block",
-        "blocks.card-section"
+        "blocks.card-section",
+        "elements.link"
       ]
     }
   }
