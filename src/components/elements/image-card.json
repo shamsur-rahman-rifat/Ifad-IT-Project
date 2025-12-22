@@ -12,18 +12,18 @@
         "images"
       ]
     },
-    "title": {
-      "type": "string"
-    },
-    "subTitle": {
-      "type": "text"
-    },
     "icon": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
         "images"
       ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "text"
     }
   },
   "config": {}
