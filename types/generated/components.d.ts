@@ -89,6 +89,16 @@ export interface BlocksHeroSection extends Struct.ComponentSchema {
   };
 }
 
+export interface BlocksImageCardBlock extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_image_card_blocks';
+  info: {
+    displayName: 'Image Card Block';
+  };
+  attributes: {
+    imageCards: Schema.Attribute.Component<'elements.image-card', true>;
+  };
+}
+
 export interface BlocksMissionVisionBlock extends Struct.ComponentSchema {
   collectionName: 'components_blocks_mission_vision_blocks';
   info: {
@@ -261,6 +271,19 @@ export interface ElementsGetInTouch extends Struct.ComponentSchema {
   };
 }
 
+export interface ElementsImageCard extends Struct.ComponentSchema {
+  collectionName: 'components_elements_image_cards';
+  info: {
+    displayName: 'Image Card';
+  };
+  attributes: {
+    icon: Schema.Attribute.Media<'images'>;
+    image: Schema.Attribute.Media<'images'>;
+    subTitle: Schema.Attribute.Text;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface ElementsInput extends Struct.ComponentSchema {
   collectionName: 'components_elements_inputs';
   info: {
@@ -395,6 +418,7 @@ declare module '@strapi/strapi' {
       'blocks.faq-section': BlocksFaqSection;
       'blocks.form-block': BlocksFormBlock;
       'blocks.hero-section': BlocksHeroSection;
+      'blocks.image-card-block': BlocksImageCardBlock;
       'blocks.mission-vision-block': BlocksMissionVisionBlock;
       'blocks.our-story-block': BlocksOurStoryBlock;
       'blocks.our-values-section': BlocksOurValuesSection;
@@ -409,6 +433,7 @@ declare module '@strapi/strapi' {
       'elements.card': ElementsCard;
       'elements.faq': ElementsFaq;
       'elements.get-in-touch': ElementsGetInTouch;
+      'elements.image-card': ElementsImageCard;
       'elements.input': ElementsInput;
       'elements.link': ElementsLink;
       'elements.logo': ElementsLogo;

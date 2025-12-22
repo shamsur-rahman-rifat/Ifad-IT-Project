@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_image_card_blocks",
+  "info": {
+    "displayName": "Image Card Block"
+  },
+  "options": {},
+  "attributes": {
+    "imageCards": {
+      "type": "component",
+      "component": "elements.image-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
