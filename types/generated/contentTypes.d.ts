@@ -528,6 +528,7 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
         'blocks.card-section',
         'elements.link',
         'blocks.faq-section',
+        'blocks.image-card-block',
       ]
     >;
     createdAt: Schema.Attribute.DateTime;
