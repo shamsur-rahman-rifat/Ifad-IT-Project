@@ -37,7 +37,8 @@
         "blocks.card-section",
         "elements.link",
         "blocks.faq-section",
-        "blocks.image-card-block"
+        "blocks.image-card-block",
+        "blocks.text-cards"
       ]
     }
   }

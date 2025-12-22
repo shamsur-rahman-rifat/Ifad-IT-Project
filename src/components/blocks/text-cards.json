@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_text_cards",
+  "info": {
+    "displayName": "Text Cards"
+  },
+  "options": {},
+  "attributes": {
+    "textCards": {
+      "type": "component",
+      "component": "elements.text-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

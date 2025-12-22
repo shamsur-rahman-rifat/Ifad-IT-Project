@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_elements_text_cards",
+  "info": {
+    "displayName": "Text Card"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "text": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -222,6 +222,16 @@ export interface BlocksTestimonialSection extends Struct.ComponentSchema {
   };
 }
 
+export interface BlocksTextCards extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_text_cards';
+  info: {
+    displayName: 'Text Cards';
+  };
+  attributes: {
+    textCards: Schema.Attribute.Component<'elements.text-card', true>;
+  };
+}
+
 export interface BlocksWhyChooseSection extends Struct.ComponentSchema {
   collectionName: 'components_blocks_why_choose_sections';
   info: {
@@ -380,6 +390,19 @@ export interface ElementsTestimonial extends Struct.ComponentSchema {
   };
 }
 
+export interface ElementsTextCard extends Struct.ComponentSchema {
+  collectionName: 'components_elements_text_cards';
+  info: {
+    displayName: 'Text Card';
+  };
+  attributes: {
+    icon: Schema.Attribute.Media<'images'>;
+    subTitle: Schema.Attribute.Text;
+    text: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface LayoutFooter extends Struct.ComponentSchema {
   collectionName: 'components_layout_footers';
   info: {
@@ -429,6 +452,7 @@ declare module '@strapi/strapi' {
       'blocks.stats-block': BlocksStatsBlock;
       'blocks.team-section': BlocksTeamSection;
       'blocks.testimonial-section': BlocksTestimonialSection;
+      'blocks.text-cards': BlocksTextCards;
       'blocks.why-choose-section': BlocksWhyChooseSection;
       'elements.card': ElementsCard;
       'elements.faq': ElementsFaq;
@@ -441,6 +465,7 @@ declare module '@strapi/strapi' {
       'elements.service': ElementsService;
       'elements.social-links': ElementsSocialLinks;
       'elements.testimonial': ElementsTestimonial;
+      'elements.text-card': ElementsTextCard;
       'layout.footer': LayoutFooter;
       'layout.header': LayoutHeader;
     }
