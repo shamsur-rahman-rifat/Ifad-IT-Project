@@ -38,7 +38,8 @@
         "elements.link",
         "blocks.faq-section",
         "blocks.image-card-block",
-        "blocks.text-cards"
+        "blocks.text-cards",
+        "blocks.slider-block"
       ]
     }
   }
