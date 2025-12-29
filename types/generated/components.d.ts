@@ -428,6 +428,7 @@ export interface LayoutHeader extends Struct.ComponentSchema {
     cta: Schema.Attribute.Component<'elements.link', false>;
     logo: Schema.Attribute.Component<'elements.logo', false>;
     navigation: Schema.Attribute.Component<'elements.link', true>;
+    services: Schema.Attribute.Component<'elements.link', true>;
   };
 }
 

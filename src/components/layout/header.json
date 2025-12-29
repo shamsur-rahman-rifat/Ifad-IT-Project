@@ -15,6 +15,11 @@
       "component": "elements.link",
       "repeatable": true
     },
+    "services": {
+      "type": "component",
+      "component": "elements.link",
+      "repeatable": true
+    },
     "cta": {
       "type": "component",
       "component": "elements.link",
