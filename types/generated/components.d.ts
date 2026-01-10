@@ -112,6 +112,19 @@ export interface BlocksMissionVisionBlock extends Struct.ComponentSchema {
   };
 }
 
+export interface BlocksNewsDetailSection extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_news_detail_sections';
+  info: {
+    displayName: 'News Detail Section';
+  };
+  attributes: {
+    category: Schema.Attribute.String;
+    content: Schema.Attribute.RichText;
+    heading: Schema.Attribute.String;
+    publishDate: Schema.Attribute.Date;
+  };
+}
+
 export interface BlocksOurStoryBlock extends Struct.ComponentSchema {
   collectionName: 'components_blocks_our_story_blocks';
   info: {
@@ -444,6 +457,7 @@ declare module '@strapi/strapi' {
       'blocks.hero-section': BlocksHeroSection;
       'blocks.image-card-block': BlocksImageCardBlock;
       'blocks.mission-vision-block': BlocksMissionVisionBlock;
+      'blocks.news-detail-section': BlocksNewsDetailSection;
       'blocks.our-story-block': BlocksOurStoryBlock;
       'blocks.our-values-section': BlocksOurValuesSection;
       'blocks.page-hero-section': BlocksPageHeroSection;

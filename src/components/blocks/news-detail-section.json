@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_news_detail_sections",
+  "info": {
+    "displayName": "News Detail Section"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "publishDate": {
+      "type": "date"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}
