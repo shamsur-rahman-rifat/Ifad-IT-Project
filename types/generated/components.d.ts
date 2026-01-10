@@ -118,10 +118,11 @@ export interface BlocksNewsDetailSection extends Struct.ComponentSchema {
     displayName: 'News Detail Section';
   };
   attributes: {
-    category: Schema.Attribute.String;
     content: Schema.Attribute.RichText;
     heading: Schema.Attribute.String;
     publishDate: Schema.Attribute.Date;
+    type: Schema.Attribute.Enumeration<['News', 'Events']> &
+      Schema.Attribute.DefaultTo<'News'>;
   };
 }
 

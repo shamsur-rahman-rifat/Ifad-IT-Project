@@ -5,8 +5,13 @@
   },
   "options": {},
   "attributes": {
-    "category": {
-      "type": "string"
+    "type": {
+      "type": "enumeration",
+      "default": "News",
+      "enum": [
+        "News",
+        "Events"
+      ]
     },
     "publishDate": {
       "type": "date"
